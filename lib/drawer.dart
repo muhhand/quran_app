@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:quran_app/settings.dart';
-import 'constants.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({

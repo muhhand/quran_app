@@ -2,9 +2,6 @@ import 'package:flutter/material.dart';
 import 'arabic_sura_number.dart';
 import 'constants.dart';
 import 'drawer.dart';
-import 'main.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-
 import 'surah_builder.dart';
 
 class IndexPage extends StatefulWidget {
