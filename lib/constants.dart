@@ -48,7 +48,7 @@ readBookmark() async {
 }
 
 List arabic = [];
-List malayalam = [];
+// List malayalam = [];
 List quran = [];
 
 Future readJson() async {
@@ -56,8 +56,8 @@ Future readJson() async {
       await rootBundle.loadString("assets/hafs_smart_v8.json");
   final data = json.decode(response);
   arabic = data["quran"];
-  malayalam = data["malayalam"];
-  return quran = [arabic, malayalam];
+  // malayalam = data["malayalam"];
+  return quran = [arabic];
 }
 
 List<Map> arabicName = [

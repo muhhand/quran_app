@@ -1,8 +1,5 @@
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter/material.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 import 'constants.dart';
 
@@ -14,7 +11,7 @@ class SurahBuilder extends StatefulWidget {
   final arabic;
   final sura;
   final suraName;
-  int ayah;
+  final int ayah;
 
   SurahBuilder(
       {Key? key, this.sura, this.arabic, this.suraName, required this.ayah})
