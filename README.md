@@ -2,7 +2,7 @@
 
 A flutter app to Read Al-Quran.
 
-![Screenshot](Capturepreview .JPG)
+![Screenshot](test.JPG)
 
 ## Credits
 
